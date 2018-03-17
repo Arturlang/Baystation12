@@ -102,7 +102,7 @@
 			animation.icon = 'icons/mob/mob.dmi'
 			animation.master = user
 			flick("blspell", animation)
-			sleep(5)
+			sleep(2)
 			qdel(animation)
 
 	if(!flashfail)
